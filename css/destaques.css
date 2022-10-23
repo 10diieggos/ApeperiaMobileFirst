@@ -1,0 +1,49 @@
+.destaques {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 45.8125rem;
+  background-color: var(--azul-claro);
+}
+
+.destaques_titulo {
+  font-family: var(--montserrat);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--cinza-escuro);
+  padding: 2.3125rem 0;
+}
+
+.destaques_paineis {}
+
+.destaques_painel {}
+
+.destaques_imagem {
+  width: 100vw;
+  max-width: 35.25rem;
+}
+
+.destaques_texto {
+  box-sizing: border-box;
+  min-width: 20.3125rem;
+  height: 3.25rem;
+  font-size: 1.1875rem;
+  line-height: 1.1875rem;
+  padding: 0.5rem 1.4375rem 0 1.4375rem;
+  margin-bottom: 2.1875rem;
+}
+
+.destaques_botao {
+  width: 100%;
+  max-width: 20.625rem;
+  height: 3.125rem;
+  border: 0.0625rem solid var(--vermelho-forte);
+  color: var(--vermelho-forte);
+  border-radius: 0.3125rem;
+  background-color: transparent;
+  margin-bottom: 2rem;
+}
